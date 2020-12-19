@@ -1,0 +1,26 @@
+{
+  "name": "Taverna Dev Live",
+  "version": "1.0",
+  "description": "Tema para discord para live do Taverna Dev",
+  "manifest_version": 2,
+  "page_action": {
+    "default_icon": {
+      "16": "images/taverna_mug_16.png",
+      "32": "images/taverna_mug_32.png",
+      "48": "images/taverna_mug_48.png",
+      "128": "images/taverna_mug_128.png"
+    }
+  },
+  "icons": {
+    "16": "images/taverna_mug_16.png",
+    "32": "images/taverna_mug_32.png",
+    "48": "images/taverna_mug_48.png",
+    "128": "images/taverna_mug_128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://discord.com/popout"],
+      "css": ["theme.css"]
+    }
+  ]
+}

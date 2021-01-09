@@ -39,7 +39,7 @@
 [class*="videoWrapper-"] > video {
   position: absolute;
   left: 50%;
-  width: fit-content;
+  width: 115%;
   transform: translate(-50%);
 }
 
